@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the latest version of The Gossip Project app.
 
-Things you may want to cover:
+We used a real database with SQL.
 
-* Ruby version
+These are the following commands to try it:
 
-* System dependencies
+1 - open your command line (terminal)
 
-* Configuration
+2 - go into the file
 
-* Database creation
+3 - run 'bundle install'
 
-* Database initialization
+4 - run 'rails db:migrate'
 
-* How to run the test suite
+5 - run 'rails db:migrate:status' to check if the migrations are "up"
 
-* Services (job queues, cache servers, search engines, etc.)
+6 - run 'rails s' to launch a server
 
-* Deployment instructions
+7 - open your browser and copy the following url: http://localhost:3000/static_pages/home
 
-* ...
+8 - navigate and check if the exercices have been made properly.
